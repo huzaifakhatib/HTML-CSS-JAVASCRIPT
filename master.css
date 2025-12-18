@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    display: flex;
+    position:relative;
+    width: 700px;
+    height: 350px;
+    background-color: black;
+    top: 200px;
+    left: 500px;
+    border-radius: 29px;
+
+}
+.one{
+    background-clip: content-box;
+}
+.logo>img{
+    position: relative;
+    top: 22px;
+}
+h1{
+    position: absolute;
+    display: flex;
+    top: 41px;
+    left: 130px;
+    color: aliceblue;
+    font-size: 25px;
+}
+.chip>img{
+ width: 120px;
+ height: 100px; 
+ position: relative;
+left: 420px;
+top: -2px;
+
+object-fit: cover;
+clip-path: inset(34.9px 32.9px 23.9px ) ;
+}
+h2{
+    position: relative;
+    color:white;
+    font-size: 25px;
+    font-weight: 400;
+    top: 150px;
+    right: 229px;
+}
+pre{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    right: 444px;
+}
+h3{
+    display: inline-flex;
+    color: white;
+    position: relative;
+    top: 280px;
+    right: 369px;
+    font-weight: 400;
+    font-size: 26px;
+
+}
+header :first-child{
+    font-weight: 400;
+    width: 180px;
+    font-size: 25px;
+    position: relative;
+    top: 120px;
+    left: 1020px;
+    
+    color:white
+    
+}
